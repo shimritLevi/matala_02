@@ -17,8 +17,8 @@ VisualGPS (Freeware) incorporates many advanced features found in professional p
 
 * Azimuth and Elevation Graph - View all satellites that are in view. Each satellite identifies its pseudo random number (PRN) and its azimuth and elevation. Also plot and print  the physical mask angle.
 * Survey - The survey window displays both position and xDOP (HDOP and VDOP) parameters. The ability for user selectable HDOP/VDOP color thresholds for position averaging make a great utility. Also monitor Standard Deviation and effects of Selective Availability. That's not all - print the results graphically. (Click here for example print output) (in PDF format - 157K)
-* Signal Quality/SNR Window - Monitor satellite signal to noise ratios and see them graphically on the screen. The signal quality window will grow or shrink to accommodate number of satellites in view
+* Signal Quality/SNR Window - Monitor satellite signal to noise ratios and see them graphically on the screen. The signal quality window will grow or shrink to accommodate number of satellites in view.
 * Navigation - Monitor latitude, longitude and altitude
-* NMEA Command Monitor - View NMEA sentences as they are received
+* NMEA Command Monitor - View NMEA sentences as they are received.
 
 ##
