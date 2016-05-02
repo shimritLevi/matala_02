@@ -1,12 +1,6 @@
 # Ex2 - review
 
-NMEA 0183 is a combined electrical and data specification for communication between marine electronics such as echo sounder, sonars, anemometer, gyrocompass, autopilot, GPS receivers and many other types of instruments. It has been defined by, and is controlled by, the National Marine Electronics Association. It replaces the earlier NMEA 0180 and NMEA 0182 standards.[1] In marine applications, it is slowly being phased out in favor of the newer NMEA 2000 standard.
-
-The electrical standard that is used is EIA-422, although most hardware with NMEA-0183 outputs are also able to drive a single EIA-232 port. Although the standard calls for isolated inputs and outputs, there are various series of hardware that do not adhere to this requirement.
-
-The NMEA 0183 standard uses a simple ASCII, serial communications protocol that defines how data are transmitted in a "sentence" from one "talker" to multiple "listeners" at a time. Through the use of intermediate expanders, a talker can have a unidirectional conversation with a nearly unlimited number of listeners, and using multiplexers, multiple sensors can talk to a single computer port.
-
-At the application layer, the standard also defines the contents of each sentence (message) type, so that all listeners can parse messages accurately.
+The system allows to download NMEA files and save them into a database, also the system allows to make CSV and KML files from the database.
 
 # Software 
 ##VisualGPS
@@ -21,4 +15,32 @@ VisualGPS (Freeware) incorporates many advanced features found in professional p
 * Navigation - Monitor latitude, longitude and altitude.
 * NMEA Command Monitor - View NMEA sentences as they are received.
 
-##
+##NMEA to KMZ file converter
+
+* Upload NMEA files to database by MySQL.
+* Select the wanted data from the NMEA files.
+* Choose the file type that convert to KML or CSV.
+
+###Features:
+
+* Can choose the output of five forms of KMZ, KML, GPX, NMEA and CSV. 
+* Track point can output information (KMZ, KML). 
+At data number, date, time, latitude,ralph lauren polos, longitude, speed, altitude by the choice output. 
+Can change a unit of speed in Km / h, mph and kt. 
+Convert the time into local time and can output it. 
+* Can choose an icon of a track point (Normal and Overspeed) (KMZ, KML). 
+* Can select a Line color and Line width of a track (KMZ, KML). 
+* Masks by HDOP, NSAT and thinning out by time and distance can be output. 
+* Select the multiple files and batch conversion is possible. 
+* Command-line option and drag & drop are supported. 
+* Output by a 3D mode is possible and detailed output condition can be set (KMZ, KML). 
+It is possible to display it by replacing the speed with altitude. 
+* The range of the output is definable at time. 
+* On / Off can output Track and Placemark (KMZ, KML). 
+
+
+#Authors:
+* Shimrit Levi.
+* Stav Anya.
+* Moshe Cohen.
+* Alon Moshe.
