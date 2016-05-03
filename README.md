@@ -1,5 +1,5 @@
 # Ex2 - review
-TO MAKE THE PROGRAM WORK YOU MUST PUT THE NMEA FILE IN THE FOLLOWING PATH --> D:\New folder ANA CHANGE YOUR FILE NAME TO "info.nmea".
+TO MAKE SURE THE PROGRAM WORK YOU MUST PUT THE NMEA FILE IN THE FOLLOWING PATH --> D:\New folder ANA CHANGE YOUR FILE NAME TO "info.nmea".
 
 The system allows to download NMEA files and save them into a database, also the system allows to make CSV and KML files from the database.
 
