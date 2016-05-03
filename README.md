@@ -1,5 +1,5 @@
 # Ex2 - review
-##To make sure the program work you must put the NMEA file in the following path --> D:\Newfolder CHANGE your file name to "info.nmea".
+##To make sure the program work you must put the NMEA file in the following path --> D:\Newfolder change your file name to "info.nmea".
 
 The system allows to download NMEA files and save them into a database, also the system allows to make CSV and KML files from the database.
 
